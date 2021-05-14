@@ -29,6 +29,6 @@ public class KeycloakServer implements QuarkusTestResourceLifecycleManager {
 
     @Override
     public void stop() {
-        //keycloak.stop();
+        keycloak.stop();
     }
 }
